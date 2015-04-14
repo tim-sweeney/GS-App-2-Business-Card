@@ -1,0 +1,426 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2CDE725B1ADCB93500E95BEB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CDE725A1ADCB93500E95BEB /* AppDelegate.swift */; };
+		2CDE725D1ADCB93500E95BEB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CDE725C1ADCB93500E95BEB /* ViewController.swift */; };
+		2CDE72601ADCB93500E95BEB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CDE725E1ADCB93500E95BEB /* Main.storyboard */; };
+		2CDE72621ADCB93500E95BEB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2CDE72611ADCB93500E95BEB /* Images.xcassets */; };
+		2CDE72651ADCB93500E95BEB /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2CDE72631ADCB93500E95BEB /* LaunchScreen.xib */; };
+		2CDE72711ADCB93500E95BEB /* GS_App_2_Business_CardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CDE72701ADCB93500E95BEB /* GS_App_2_Business_CardTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2CDE726B1ADCB93500E95BEB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2CDE724D1ADCB93500E95BEB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2CDE72541ADCB93500E95BEB;
+			remoteInfo = "GS App 2 Business Card";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2CDE72551ADCB93500E95BEB /* GS App 2 Business Card.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GS App 2 Business Card.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2CDE72591ADCB93500E95BEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2CDE725A1ADCB93500E95BEB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2CDE725C1ADCB93500E95BEB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2CDE725F1ADCB93500E95BEB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2CDE72611ADCB93500E95BEB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		2CDE72641ADCB93500E95BEB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		2CDE726A1ADCB93500E95BEB /* GS App 2 Business CardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "GS App 2 Business CardTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2CDE726F1ADCB93500E95BEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2CDE72701ADCB93500E95BEB /* GS_App_2_Business_CardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GS_App_2_Business_CardTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2CDE72521ADCB93500E95BEB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2CDE72671ADCB93500E95BEB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2CDE724C1ADCB93500E95BEB = {
+			isa = PBXGroup;
+			children = (
+				2CDE72571ADCB93500E95BEB /* GS App 2 Business Card */,
+				2CDE726D1ADCB93500E95BEB /* GS App 2 Business CardTests */,
+				2CDE72561ADCB93500E95BEB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2CDE72561ADCB93500E95BEB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2CDE72551ADCB93500E95BEB /* GS App 2 Business Card.app */,
+				2CDE726A1ADCB93500E95BEB /* GS App 2 Business CardTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2CDE72571ADCB93500E95BEB /* GS App 2 Business Card */ = {
+			isa = PBXGroup;
+			children = (
+				2CDE725A1ADCB93500E95BEB /* AppDelegate.swift */,
+				2CDE725C1ADCB93500E95BEB /* ViewController.swift */,
+				2CDE725E1ADCB93500E95BEB /* Main.storyboard */,
+				2CDE72611ADCB93500E95BEB /* Images.xcassets */,
+				2CDE72631ADCB93500E95BEB /* LaunchScreen.xib */,
+				2CDE72581ADCB93500E95BEB /* Supporting Files */,
+			);
+			path = "GS App 2 Business Card";
+			sourceTree = "<group>";
+		};
+		2CDE72581ADCB93500E95BEB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2CDE72591ADCB93500E95BEB /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2CDE726D1ADCB93500E95BEB /* GS App 2 Business CardTests */ = {
+			isa = PBXGroup;
+			children = (
+				2CDE72701ADCB93500E95BEB /* GS_App_2_Business_CardTests.swift */,
+				2CDE726E1ADCB93500E95BEB /* Supporting Files */,
+			);
+			path = "GS App 2 Business CardTests";
+			sourceTree = "<group>";
+		};
+		2CDE726E1ADCB93500E95BEB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2CDE726F1ADCB93500E95BEB /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2CDE72541ADCB93500E95BEB /* GS App 2 Business Card */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2CDE72741ADCB93500E95BEB /* Build configuration list for PBXNativeTarget "GS App 2 Business Card" */;
+			buildPhases = (
+				2CDE72511ADCB93500E95BEB /* Sources */,
+				2CDE72521ADCB93500E95BEB /* Frameworks */,
+				2CDE72531ADCB93500E95BEB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "GS App 2 Business Card";
+			productName = "GS App 2 Business Card";
+			productReference = 2CDE72551ADCB93500E95BEB /* GS App 2 Business Card.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2CDE72691ADCB93500E95BEB /* GS App 2 Business CardTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2CDE72771ADCB93500E95BEB /* Build configuration list for PBXNativeTarget "GS App 2 Business CardTests" */;
+			buildPhases = (
+				2CDE72661ADCB93500E95BEB /* Sources */,
+				2CDE72671ADCB93500E95BEB /* Frameworks */,
+				2CDE72681ADCB93500E95BEB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2CDE726C1ADCB93500E95BEB /* PBXTargetDependency */,
+			);
+			name = "GS App 2 Business CardTests";
+			productName = "GS App 2 Business CardTests";
+			productReference = 2CDE726A1ADCB93500E95BEB /* GS App 2 Business CardTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2CDE724D1ADCB93500E95BEB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Tim Sweeney";
+				TargetAttributes = {
+					2CDE72541ADCB93500E95BEB = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					2CDE72691ADCB93500E95BEB = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = 2CDE72541ADCB93500E95BEB;
+					};
+				};
+			};
+			buildConfigurationList = 2CDE72501ADCB93500E95BEB /* Build configuration list for PBXProject "GS App 2 Business Card" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2CDE724C1ADCB93500E95BEB;
+			productRefGroup = 2CDE72561ADCB93500E95BEB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2CDE72541ADCB93500E95BEB /* GS App 2 Business Card */,
+				2CDE72691ADCB93500E95BEB /* GS App 2 Business CardTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2CDE72531ADCB93500E95BEB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CDE72601ADCB93500E95BEB /* Main.storyboard in Resources */,
+				2CDE72651ADCB93500E95BEB /* LaunchScreen.xib in Resources */,
+				2CDE72621ADCB93500E95BEB /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2CDE72681ADCB93500E95BEB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2CDE72511ADCB93500E95BEB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CDE725D1ADCB93500E95BEB /* ViewController.swift in Sources */,
+				2CDE725B1ADCB93500E95BEB /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2CDE72661ADCB93500E95BEB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CDE72711ADCB93500E95BEB /* GS_App_2_Business_CardTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2CDE726C1ADCB93500E95BEB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2CDE72541ADCB93500E95BEB /* GS App 2 Business Card */;
+			targetProxy = 2CDE726B1ADCB93500E95BEB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2CDE725E1ADCB93500E95BEB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2CDE725F1ADCB93500E95BEB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2CDE72631ADCB93500E95BEB /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2CDE72641ADCB93500E95BEB /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2CDE72721ADCB93500E95BEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2CDE72731ADCB93500E95BEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2CDE72751ADCB93500E95BEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "GS App 2 Business Card/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2CDE72761ADCB93500E95BEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "GS App 2 Business Card/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		2CDE72781ADCB93500E95BEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "GS App 2 Business CardTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GS App 2 Business Card.app/GS App 2 Business Card";
+			};
+			name = Debug;
+		};
+		2CDE72791ADCB93500E95BEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "GS App 2 Business CardTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GS App 2 Business Card.app/GS App 2 Business Card";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2CDE72501ADCB93500E95BEB /* Build configuration list for PBXProject "GS App 2 Business Card" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2CDE72721ADCB93500E95BEB /* Debug */,
+				2CDE72731ADCB93500E95BEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2CDE72741ADCB93500E95BEB /* Build configuration list for PBXNativeTarget "GS App 2 Business Card" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2CDE72751ADCB93500E95BEB /* Debug */,
+				2CDE72761ADCB93500E95BEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2CDE72771ADCB93500E95BEB /* Build configuration list for PBXNativeTarget "GS App 2 Business CardTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2CDE72781ADCB93500E95BEB /* Debug */,
+				2CDE72791ADCB93500E95BEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2CDE724D1ADCB93500E95BEB /* Project object */;
+}
